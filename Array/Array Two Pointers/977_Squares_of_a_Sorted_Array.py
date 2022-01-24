@@ -36,7 +36,8 @@ def sortedSquares(nums):
 # does not work for all negative numbers in a list
 def sortedSquaresSolution2(nums):
     """
-    Initial Approach: (failed solution)
+    Initial Approach: 
+        - (failed solution) ex: [-5,-3,-2,-1] returns [1,9,4,25] when it should be [1,4,9,25]
         - Create a left=0 and right=n-1 pointer
         - Compare the values of the left and right pointers
         - Only move the right pointer, all the elements to the right of the right pointer are squared
