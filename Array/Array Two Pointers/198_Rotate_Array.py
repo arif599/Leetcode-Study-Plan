@@ -1,6 +1,15 @@
 def rotate(nums, k):
-    # Time: O(n) becasue we have to iterate over every element in the array
-    # Space: O(n) because we have to create a new array (result) of the same size
+    """
+    Initial Approach: 
+        - Iterate over the part of the array that needs to be rotated (n-k to n) and add it to result array
+        - Iterate over the rest of the array (0 to k) and add it to result array
+        - Return result array
+
+    Analysis:
+        - Time: O(n) becasue we have to iterate over every element in the array
+        - Space: O(n) because we have to create a new array (result) of the same size
+    """
+
     
     result = []
 
