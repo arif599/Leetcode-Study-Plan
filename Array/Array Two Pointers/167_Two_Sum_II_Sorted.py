@@ -2,7 +2,7 @@ def twoSum(numbers, target):
     """
         Optimal Approach: 
             - key word: sorted array, which means we can use two pointer apprach
-            - left pointer starts at 0 and right pointer starts at n
+            - left pointer starts at 0 and right pointer starts at n-1
             - move the pointers until the target is found
 
             Analysis:
