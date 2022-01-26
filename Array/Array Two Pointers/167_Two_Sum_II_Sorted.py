@@ -26,7 +26,7 @@ def twoSum(numbers, target):
 
 
 """
-    Optimal Approach 1: 
+    Initial Approach 2: 
         - have a hashmap key=target-number, value=index
         - if an element is in the hashmap, return the index of the element and the index of the element in the array
 
