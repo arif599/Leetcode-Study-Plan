@@ -6,7 +6,7 @@ class Solution:
                 - check if difference in height of left subtree and right subtree is less than or equal to 1
             Analysis:
                 - Time: O(n) becasue we have to visit each node
-                - Space: O(n) becasue the nodes are stored in a stack
+                - Space: O(h) becasue at most we will have the height of the tree in the stack
         """
         balanced = True
         def findHeight(node):
